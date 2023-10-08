@@ -15,6 +15,10 @@
 .body {
     font-family: 'Montserrat', sans-serif;
 }
+h5 {
+    color:  var(--discord-Primary);
+    margin-bottom: 10px;
+}
 
 /* header */
 .debug .container-flex {
@@ -209,11 +213,14 @@
 
 .debug .footer-flex {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: rgb(38, 38, 38);
+    color: white;
 }
 
-
+footer ul{
+    list-style: none;
+}
 
 .debug .social {
     margin: 50px 0px;
@@ -224,11 +231,17 @@
 
 .ita-leng {
     color: white;
+    margin: 20px 0px;
 }
+
+.lenguage {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+
 .debug .prodotto {
-    width: 200px;
-    height: 500px;
-    background-color:aqua;
     margin: 50px 0px;
 }
 
