@@ -20,6 +20,9 @@
     display: flex;
     align-items: center;
 }
+.backcolor {
+    background-color: var(--discord-grey);
+}
 
 
 h5 {
@@ -156,9 +159,6 @@ li {
 
 /* section2 */
 
-section  {
-    background-color: rgb(219, 219, 219);
-}
 
 .debug .voice-text {
     font-size: 15px;
@@ -171,10 +171,6 @@ section  {
 
 /* section3 */
 
-.section3{
-    display: flex;
-    justify-content: center;
-}
 
 .debug .coach {
     margin: 50px 0px;
@@ -187,12 +183,6 @@ section  {
 
 /* section 4 */
 
-.section4 {
-    display: flex;
-    justify-content: center;
-    background-color: rgb(219, 219, 219);
-    text-align: center;
-}
 
 .debug .just-chillin {
     margin: 50px 0px;
