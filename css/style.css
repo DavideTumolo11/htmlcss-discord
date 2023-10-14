@@ -15,6 +15,13 @@
 .body {
     font-family: 'Montserrat', sans-serif;
 }
+
+.section {
+    display: flex;
+    align-items: center;
+}
+
+
 h5 {
     color:  var(--discord-Primary);
     margin-bottom: 10px;
@@ -38,7 +45,7 @@ li {
     width: 100%;
     background-color: var(--discord-Primary);
 }
-.debug .logo {
+.logo {
     width: 200px;
     height: px;
     margin: 25px 0px;
@@ -133,7 +140,7 @@ li {
 
 /* section1 */
 
-.section1-flex {
+.section {
     display: flex;
     justify-content: center;
 }
@@ -144,19 +151,17 @@ li {
 
 .study-text {
     font-size: 15px;
+    margin: 50px 0;
 }
 
 /* section2 */
 
-.debug .section2-flex {
-    display: flex;
-    justify-content: center;
+section  {
     background-color: rgb(219, 219, 219);
 }
 
 .debug .voice-text {
     font-size: 15px;
-    margin: 50px 350px;
 
 }
 
@@ -166,7 +171,7 @@ li {
 
 /* section3 */
 
-.debug .section3-flex {
+.section3{
     display: flex;
     justify-content: center;
 }
@@ -177,12 +182,12 @@ li {
 }
 
 .debug .coach-text {
-    margin: 50px 350px;
+    font-size: 15px;
 }
 
 /* section 4 */
 
-.debug .section4-flex {
+.section4 {
     display: flex;
     justify-content: center;
     background-color: rgb(219, 219, 219);
@@ -246,7 +251,7 @@ footer ul{
 }
 
 
-.debug .prodotto {
+.prodotto {
     margin: 50px 0px;
 }
 
@@ -254,54 +259,52 @@ footer ul{
     margin: 20px 0;
 }
 
-.debug .compagnia {
+.compagnia {
     width: 200px;
     height: 500px;
-    background-color:aqua;
     margin: 50px 0px;
 }
 
-.debug .risorse {
+.risorse {
     width: 200px;
     height: 500px;
-    background-color:aqua;
     margin: 50px 0px;
 }
 
-.debug .norme {
+.norme {
     width: 200px;
     height: 500px;
-    background-color:aqua;
     margin: 50px 0px;
 }
 
 
-.debug .registrati-flex {
+.registrati-flex {
     display: flex;
     justify-content: center;
     background-color: rgb(38, 38, 38);
 }
 
-.debug .section-footer-flex {
+.section-footer-flex {
     display: flex;
     width: 1300px;
     height: 100px;
-    background-color:aqua;
     margin: 50px 0px;
     justify-content: space-between;
     align-items: center;
 }
 
-.debug .footer-logo {
+.footer-logo {
     width: 130px;
     height: 50px;
-    background-color: pink;
     margin: 50px 0px;
 }
 
-.debug .bottone {
+.bottone {
     width: 130px;
     height: 50px;
-    background-color:pink;
     margin: 50px 0px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: var(--discord-Primary);
+    line-height: 3;
 }
