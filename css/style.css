@@ -19,14 +19,13 @@
 
 section {
     display: flex;
-    align-items: center;
     justify-content: center;
-    width: 80%;
-    max-width: 1152px;
-    margin: auto;
+    padding: 100px;
 }
 
-
+p {
+    font-size: 20px;
+}
 
 
 h5 {
@@ -144,19 +143,20 @@ li {
 
 /* section1 */
 
-.section {
+.study-group {
     display: flex;
     justify-content: center;
 }
 
-.study-group {
-    margin: 50px 0px;
+.study-gr {
+    display: flex;
+    max-width: 1152px;
+}
+.Study-text {
+    margin: 0 70px;
+    font-size: 15px;
 }
 
-.study-text {
-    font-size: 15px;
-    margin: 50px 0;
-}
 
 /* section2 */
 
@@ -164,37 +164,44 @@ li {
     background-color: var(--discord-grey);
 }
 
+.voice-con {
+    display: flex;
+    max-width: 1152px;
+}
+
 .debug .voice-text {
     font-size: 15px;
+    margin: 0 70px;
 
 }
 
-.debug .voice-connected {
-    margin: 50px 0px;
-}
 
 /* section3 */
 
 
-.debug .coach {
-    margin: 50px 0px;
+.coach {
+    display: flex;
+    max-width: 1152px;
+}
 
+.coach {
+    display: flex;
+    justify-content: center;
 }
 
 .debug .coach-text {
     font-size: 15px;
+    margin: 0 70px;
 }
 
 /* section 4 */
 
 .just-chillin {
-    margin: 0;
     background-color: var(--discord-grey);
 }
 
-
-.just {
-    margin: 50px 0px;
+.chillin {
+    
 }
 
 .h2-section4 {
@@ -210,12 +217,23 @@ li {
     margin: 10px 365px;
 }
 
-.img4 {
-    align-items: center;
+.img-just-chillin {
+    display: flex;
+    justify-content: center;
 }
 
 .btn-center {
     background-color: var(--discord-accent);
+}
+
+.button-scarica {
+    display: flex;
+    justify-content: center;
+}
+
+.stelle {
+    display: flex;
+    justify-content: center;
 }
 
 /* footer */
