@@ -87,6 +87,7 @@ li {
     padding: 5px 5px;
     border-radius: 30px;
     font-size: 15px;
+    transition: 2s;
 }
 
 .btn:hover {
