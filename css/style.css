@@ -42,6 +42,15 @@ li {
     margin: 20px 0;
 }
 
+.image {
+    filter: blur(3px);
+    transition: 2s;
+}
+
+.image:hover {
+    filter: none;
+}
+
 /* header */
 .debug .container-flex {
     display: flex;
