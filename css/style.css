@@ -89,6 +89,10 @@ li {
     font-size: 15px;
 }
 
+.btn:hover {
+    box-shadow: 0 0 30px black ;
+}
+
 .btn-white{
     color: var(--discord-black);
     background-color: white;
